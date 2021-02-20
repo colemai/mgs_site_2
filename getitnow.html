@@ -74,7 +74,7 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> -->
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -123,106 +123,177 @@
         <div class="row gy-4">
 
           <div class="col-md-12 d-flex text-center align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <p> Take the Screening Quiz now to learn the type of IBS that you might be suffering from.
+            <br>
+            <p> Take the Screening Quiz now to learn the type of IBS that you might be suffering from
+              <br>
 
-            Button to say “Start Quiz Here”
+              <br>
+              The screening quiz has been designed to minimise risks associated with self-managing IBS. 
+              It does not replace the relationship with your healthcare practice or service. 
+              It does not have any diagnostic capability. 
+
+              My Gut Solution strongly recommends that your medical doctor provide you with an IBS diagnosis before engaging with our solution. 
+
+              <br>
+              <br>
+            </p>
+          </div>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-md-12 d-flex text-center align-items-stretch" data-aos="fade-up" data-aos-delay="100">
 
             
-    <iframe
-      id="JotFormIFrame-210405366947054"
-      title="Form"
-      onload="window.parent.scrollTo(0,0)"
-      allowtransparency="true"
-      allowfullscreen="true"
-      allow="geolocation; microphone; camera"
-      src="https://form.jotform.com/210405366947054"
-      frameborder="0"
-      style="
-      min-width: 100%;
-      height:539px;
-      border:none;"
-      scrolling="no"
-    >
-    </iframe>
-    <script type="text/javascript">
-      var ifr = document.getElementById("JotFormIFrame-210405366947054");
-      if (ifr) {
-        var src = ifr.src;
-        var iframeParams = [];
-        if (window.location.href && window.location.href.indexOf("?") > -1) {
-          iframeParams = iframeParams.concat(window.location.href.substr(window.location.href.indexOf("?") + 1).split('&'));
-        }
-        if (src && src.indexOf("?") > -1) {
-          iframeParams = iframeParams.concat(src.substr(src.indexOf("?") + 1).split("&"));
-          src = src.substr(0, src.indexOf("?"))
-        }
-        iframeParams.push("isIframeEmbed=1");
-        ifr.src = src + "?" + iframeParams.join('&');
-      }
-      window.handleIFrameMessage = function(e) {
-        if (typeof e.data === 'object') { return; }
-        var args = e.data.split(":");
-        if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
-        if (!iframe) { return; }
-        switch (args[0]) {
-          case "scrollIntoView":
-            iframe.scrollIntoView();
-            break;
-          case "setHeight":
-            iframe.style.height = args[1] + "px";
-            break;
-          case "collapseErrorPage":
-            if (iframe.clientHeight > window.innerHeight) {
-              iframe.style.height = window.innerHeight + "px";
+          <iframe
+            id="JotFormIFrame-210405366947054"
+            title="Form"
+            onload="window.parent.scrollTo(0,0)"
+            allowtransparency="true"
+            allowfullscreen="true"
+            allow="geolocation; microphone; camera"
+            src="https://form.jotform.com/210405366947054"
+            frameborder="0"
+            style="
+            min-width: 100%;
+            height:539px;
+            border:none;"
+            scrolling="no"
+          >
+          </iframe>
+          <script type="text/javascript">
+            var ifr = document.getElementById("JotFormIFrame-210405366947054");
+            if (ifr) {
+              var src = ifr.src;
+              var iframeParams = [];
+              if (window.location.href && window.location.href.indexOf("?") > -1) {
+                iframeParams = iframeParams.concat(window.location.href.substr(window.location.href.indexOf("?") + 1).split('&'));
+              }
+              if (src && src.indexOf("?") > -1) {
+                iframeParams = iframeParams.concat(src.substr(src.indexOf("?") + 1).split("&"));
+                src = src.substr(0, src.indexOf("?"))
+              }
+              iframeParams.push("isIframeEmbed=1");
+              ifr.src = src + "?" + iframeParams.join('&');
             }
-            break;
-          case "reloadPage":
-            window.location.reload();
-            break;
-          case "loadScript":
-            var src = args[1];
-            if (args.length > 3) {
-                src = args[1] + ':' + args[2];
+            window.handleIFrameMessage = function(e) {
+              if (typeof e.data === 'object') { return; }
+              var args = e.data.split(":");
+              if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+              if (!iframe) { return; }
+              switch (args[0]) {
+                case "scrollIntoView":
+                  iframe.scrollIntoView();
+                  break;
+                case "setHeight":
+                  iframe.style.height = args[1] + "px";
+                  break;
+                case "collapseErrorPage":
+                  if (iframe.clientHeight > window.innerHeight) {
+                    iframe.style.height = window.innerHeight + "px";
+                  }
+                  break;
+                case "reloadPage":
+                  window.location.reload();
+                  break;
+                case "loadScript":
+                  var src = args[1];
+                  if (args.length > 3) {
+                      src = args[1] + ':' + args[2];
+                  }
+                  var script = document.createElement('script');
+                  script.src = src;
+                  script.type = 'text/javascript';
+                  document.body.appendChild(script);
+                  break;
+                case "exitFullscreen":
+                  if      (window.document.exitFullscreen)        window.document.exitFullscreen();
+                  else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
+                  else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
+                  else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
+                  else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
+                  break;
+              }
+              var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+              if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+                var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+                iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+              }
+            };
+            if (window.addEventListener) {
+              window.addEventListener("message", handleIFrameMessage, false);
+            } else if (window.attachEvent) {
+              window.attachEvent("onmessage", handleIFrameMessage);
             }
-            var script = document.createElement('script');
-            script.src = src;
-            script.type = 'text/javascript';
-            document.body.appendChild(script);
-            break;
-          case "exitFullscreen":
-            if      (window.document.exitFullscreen)        window.document.exitFullscreen();
-            else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
-            else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
-            else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
-            else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
-            break;
-        }
-        var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
-        if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
-          var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
-          iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
-        }
-      };
-      if (window.addEventListener) {
-        window.addEventListener("message", handleIFrameMessage, false);
-      } else if (window.attachEvent) {
-        window.attachEvent("onmessage", handleIFrameMessage);
-      }
-      </script>
+            </script>
+
+          </div>
+        </div>
 
 
-            The screening quiz has been designed to minimise risks associated with self-managing IBS. It was created following the guidelines outlined in the; 
-            HSE Cancer Guidelines; Ovarian Cancer Referral Guidelines.
-            NICE Suspected cancer: recognition and referral.
+        <div class="row gy-4">
+          
+          <div class="col-md-2">
+          </div>
+
+          <div class="col-md-8 d-flex text-center align-items-stretch" data-aos="fade-up" data-aos-delay="100" style="padding:20px">
+
+            <p> If you've passed the screening tool, we'll email you a license code in the next 24 hours. In the mean time, download the My Gut Solution app on your phone:</p>
+            
+          </div>
+          <div class="col-md-2">
+          </div>        
+        </div>
+
+
+        <div class="row gy-3">
+          <div class="col-md-3">
+          </div>
+
+          <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100" style="display: inline-block">
+
+            <a href="https://apps.apple.com/us/app/my-gut-solution/id1531462041?itsct=apps_box&amp;itscg=30200"><img style="height:100px; " src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-US?size=250x83&amp;releaseDate=1607558400&h=9c6f9e1ae173ea6522d2ebf5f1e1857c" alt="Download on the App Store"></a>
+
+            <a href='https://play.google.com/store/apps/details?id=app.mygutsolution.com&hl=en_US&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img style="height:100px; " alt='Get it on Google Play' src='assets/img/google_play_badge.png'/></a>
+
+          </div>
+          <div class="col-md-3">
+          </div>
+
+<!-- 
+        </div>
+
+        <div class="row gy-4"> -->
+<!--           <div class="col-md-4"> -->
+<!--           </div> -->
+
+<!-- 
+          <div class="col-md-3">
+          </div> -->
+
+
+        </div>
+       
+
+        <div class="row gy-4">
+
+          <div class="col-md-12 d-flex text-center align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <p>
+
+            <br>
+            Our screening tool was informed by the 
+            HSE Cancer Guidelines, Ovarian Cancer Referral Guidelines,
+            NICE Suspected cancer: Recognition and Referral as well as
             The Rome Foundation, Rome IV.
-            Thus, you will be asked a series of questions about your symptoms. Remember, this is a screening tool only. 
-            It does not replace the relationship with your healthcare practice or service. 
-            It does not have any diagnostic capability. 
 
-            My Gut Solution strongly recommends that your medical doctor provide you with an IBS diagnosis before engaging with our solution. 
-
-            References - - https://www.hse.ie/eng/services/list/5/cancer/profinfo/resources/gpreferrals/ovarian-cancer-referral-guidelines.pdf
+            <br>
+            <br>
+            References:
+            <br>
+            https://www.hse.ie/eng/services/list/5/cancer/profinfo/resources/gpreferrals/ovarian-cancer-referral-guidelines.pdf
+            <br>
             https://theromefoundation.org/wp-content/uploads/functional-gastrointestinal-disorders-history-pathophysiology-clinical-features-and-rome-iv.pdf
+            <br>
             https://www.nice.org.uk/guidance/ng12/resources </p>
             
           </div>
